@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Inno Setup output
+installer_output/
+
+# Personal application data (should never be in the project folder,
+# but excluded here as a safety net in case it ever ends up there)
+*.db
+*.db-journal
+settings.json
+app.log
+vault/
+backups/
+
+# VS Code workspace settings (optional/personal editor config)
+.vscode/
+
+# OS-specific junk files
+Thumbs.db
+.DS_Store
